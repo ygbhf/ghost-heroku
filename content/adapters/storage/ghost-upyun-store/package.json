@@ -1,0 +1,30 @@
+{
+  "name": "ghost-upyun-store",
+  "version": "1.0.0",
+  "description": "Ghost Upyun storage module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupboss/ghost-upyun-store.git"
+  },
+  "keywords": [
+    "upyun",
+    "ghost",
+    "storage"
+  ],
+  "author": "Jet Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pupboss/ghost-upyun-store/issues"
+  },
+  "homepage": "https://github.com/pupboss/ghost-upyun-store#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ghost-storage-base": "0.0.2",
+    "moment": "^2.19.3",
+    "upyun": "^3.3.4"
+  }
+}
